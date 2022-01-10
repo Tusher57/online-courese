@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Coures</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    
+    <!---navigation-->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i  id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="coures.html">Coures</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--home-->
+    <section id="about-home">
+        <h2>About TeachEduca/</h2>
+        
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Welcome To TechEduca, Bright your skill with best online coures</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime itaque sit quos voluptatibus veniam dolor harum culpa explicabo quam consectetur.</p>
+            <div class="about-fe">
+                <img src="images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>400+ courses</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, neque?</p>
+                </div>
+            </div>
+
+            <div class="about-fe">
+                <img src="images/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, neque?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--fratures-->
+    <section id="features">
+        <h1>Awsome Features</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.velit rerum. Laboriosam sed eum repudiandae.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-file-certificate"></i>
+                <h3>Dell Online Courses</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certification</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trust">
+        <h2>Trust By</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sed?</p>
+        <div class="trust-img">
+            <img src="images/trust (1).png" alt="">
+            <img src="images/trust (2).png" alt="">
+            <img src="images/trust (3).png" alt="">
+            <img src="images/trust (4).png" alt="">
+            <img src="images/trust (5).png" alt="">
+            <img src="images/trust (6).png" alt="">
+        </div>
+    </section>
+  
+
+  
+
+    <!----footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage reputation</li>
+            <li>Power tools</li>
+            <li>Manage website</li>
+            <li>Marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>jobs</li>
+            <li> brand assest</li>
+            <li>Manage website</li>
+            <li>Marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage reputation</li>
+            <li>Power tools</li>
+            <li>Manage website</li>
+            <li>Marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resourch</h3>
+            <li>Guids</li>
+            <li>Power tools</li>
+            <li>Experts</li>
+            <li>Marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur .</p>
+            <div class="subscribe">
+                <input type="text" placeholder="your email">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2022 All Right Reserved</p>
+            <div class="pro-links">
+                         <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+
+    </script>
+
+</body>
+</html>
